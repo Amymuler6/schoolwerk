@@ -1,0 +1,20 @@
+input{
+    display:list-item;
+}
+
+label{
+    display:list-item;
+}
+select{
+    display: grid;
+    margin: 5px;
+    border-radius:5px;
+}
+textarea{
+    display: inline;
+    border-color: red; 
+}
+textarea:focus{
+    outline: none;
+    border-color: green;
+}

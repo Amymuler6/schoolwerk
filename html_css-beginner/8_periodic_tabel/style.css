@@ -1,0 +1,48 @@
+th{
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.boven{
+    background-color: gainsboro;
+}
+
+.zijkant{
+    background-color: gainsboro;
+}
+
+.H{
+    background-color: orange;
+    border: solid rgb(141, 141, 244);
+}
+.B{
+    background-color: rgb(209, 133, 209);
+    border: solid rgb(141, 141, 244);
+}
+
+.C{
+    background-color: rgb(125, 167, 211);
+    border: solid rgb(141, 141, 244);
+}
+.D{
+    background-color: rgba(255, 255, 0, 0.33);
+    border: solid rgb(141, 141, 244);
+}
+
+td:hover{
+    background-color: yellow;
+    cursor:pointer;
+}
+
+.zijkant:hover{
+        background-color: gainsboro;
+}
+
+
+
