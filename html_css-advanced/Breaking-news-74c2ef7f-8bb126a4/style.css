@@ -1,0 +1,39 @@
+.navbar {
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+body{
+    background-color: rgb(244, 213, 172);
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#breaking {
+    order: -4;
+    font-size: larger;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    flex-grow: 10;
+}
+
+.news:nth-child(1){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.news:nth-child(n+2){
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+
+

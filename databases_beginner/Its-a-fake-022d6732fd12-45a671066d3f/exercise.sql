@@ -1,0 +1,1 @@
+DELETE FROM planeten WHERE `planeten`.`ID` = 7

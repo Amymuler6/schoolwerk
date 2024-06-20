@@ -1,0 +1,46 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ .middletext{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex: 3;
+    justify-content: center;
+    padding: 10px;
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+.sidetext1{
+    background-color: rgb(2, 2, 184);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: -1;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+}    
+
+.sidetext2{
+    background-color: rgb(2, 2, 184);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+

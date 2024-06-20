@@ -1,0 +1,1 @@
+INSERT INTO `planeten` (`type`, `Naam`) VALUES ('Zon', 'Mercurius', 'Venus', 'Aarde', 'Mars');
